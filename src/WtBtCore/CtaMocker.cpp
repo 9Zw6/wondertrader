@@ -11,6 +11,7 @@
 #include "WtHelper.h"
 #include "EventNotifier.h"
 
+#include <fstream>
 #include <exception>
 #include <boost/filesystem.hpp>
 
