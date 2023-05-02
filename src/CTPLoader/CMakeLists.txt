@@ -29,10 +29,10 @@ IF(WIN32)
 ELSEIF( APPLE)
 	LIST(APPEND LIBS
 			iconv
-			thosttraderapi_se
-			ssl
-			crypto
-			comunicationkeylib
+            thosttraderapi_se
+            ssl
+            crypto
+            #            comunicationkeylib
 			)
 ENDIF()
 
