@@ -1,7 +1,7 @@
 #include "../Share/TimeUtils.hpp"
 #include "../Share/fmtlib.h"
 #include "../WTSTools/WTSHotMgr.h"
-#include "gtest/gtest/gtest.h"
+#include "gtest/gtest.h"
 
 TEST(test_utils, test_hotmgr)
 {

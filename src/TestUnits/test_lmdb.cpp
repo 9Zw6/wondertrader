@@ -1,6 +1,6 @@
 #include "../WTSUtils/WtLMDB.hpp"
 #include "../Share/StrUtil.hpp"
-#include "gtest/gtest/gtest.h"
+#include "gtest/gtest.h"
 
 USING_NS_WTP;
 

@@ -33,7 +33,7 @@ ELSE(GNUCC)
 				thosttraderapi_se
 				ssl
 				crypto
-				comunicationkeylib
+                #				comunicationkeylib
 				)
 	ENDIF()
 	TARGET_LINK_LIBRARIES(TraderCTP ${LIBS})

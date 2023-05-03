@@ -9,20 +9,21 @@ SET(CMAKE_CXX_STANDARD 11)
 SET(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/build_${PLATFORM}/${CMAKE_BUILD_TYPE}/bin/TestUnits)
 
 #7. 添加源码
-file(GLOB SRCS *.cpp ./gtest/*.cc)
+#file(GLOB SRCS *.cpp ./gtest/*.cc)
+file(GLOB SRCS *.cpp)
 
 SET(LIBS
     WTSTools
 	WTSUtils)
 IF (MSVC)
 ELSE(GNUCC)
-    LIST(APPEND LIBS pthread boost_filesystem)
+    LIST(APPEND LIBS pthread boost_filesystem gmock gtest)
 	IF(WIN32)
 		LIST(APPEND LIBS iconv)
 	ENDIF()
 ENDIF()
 
-LIST(APPEND INCS "./gtest")
+#LIST(APPEND INCS "./gtest")
 
 INCLUDE_DIRECTORIES(${INCS})
 LINK_DIRECTORIES(${LNKS})

@@ -83,5 +83,6 @@
         "algorithm": "cpp",
         "filesystem": "cpp",
         "*.ipp": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
