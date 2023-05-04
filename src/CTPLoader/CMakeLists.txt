@@ -32,7 +32,7 @@ ELSEIF( APPLE)
             thosttraderapi_se
             ssl
             crypto
-            #            comunicationkeylib
+            comunicationkey
 			)
 ENDIF()
 

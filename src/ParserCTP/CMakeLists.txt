@@ -27,7 +27,7 @@ ELSE (GNUCC)
 		LIST(APPEND LIBS
 				thostmduserapi_se
 				crypto
-                #				comunicationkeylib
+                comunicationkey
 				)
 	ENDIF()
 
